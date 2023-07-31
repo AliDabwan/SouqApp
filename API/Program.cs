@@ -60,7 +60,7 @@ builder.Services.AddDbContext<SouqContext>(options =>
 
         if (env == "Development")
         {
-            connStr = builder.Configuration.GetConnectionString("DefaultConnection");
+            connStr = builder.Configuration.GetConnectionString("Default Connection");
         }
         else
         {
